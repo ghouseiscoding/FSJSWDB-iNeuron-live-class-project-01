@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-container{
+ display: flex;
+ justify-content: space-around;
+ font-family: 'Orbitron', sans-serif;
+ font-weight: 500;
+ font-size: 16px;
+ margin: 30px 0;
+}
+
+.navbar-container>div>img{
+    width: 100px;
+    margin-top: 10px;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.list-item:first-child{
+    text-decoration: underline ;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.list-item{
+    margin: 0 20px;
+}
+
+.button-group{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.search-icon>svg{
+    width: 20px;
+    height: 20px;
+}
+
+.nav-button{
+    margin: 0 10px;
+    background-color: transparent;
+    padding: 2px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #4d4d4d;
+}
+
+.hero-container{
+    display : flex;
+}
+
+.hero-container>div>img{
+    position: absolute;
+    width: 360px;
+    top: 120px;
+    left: 110px;
+}
+
+.square>img{
+    position: relative;
+    top: 210px;
+    left: 230px;
+    width: 300px;
+}
+
+.star{
+    position: absolute;
+    left: 1190px;
+    top: 130px;
+}
+
+.star>img{
+    width: 50px;
+}
+
+.star2{
+    position: absolute;
+    left: 600px;
+    top: 500px;
+}
+
+.star2>img{
+    width: 40px;
+}
+
+.globe{
+    position: absolute;
+    left: 700px;
+    top: 90px;
+}
+
+.globe>img{
+    width: 50px;
+}
+
+.hero-container-right{
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    right: 100px;
+    text-align: center;
+}
+
+.hero-heading{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.hero-description{
+    font-family: 'poppins', sans-serif;
+    font-size: 11px;
+    margin: 40px 160px;
+}
+
+.button-email{
+    font-family: 'Orbitron', sans-serif;
+    margin: 20px 10px;
+    background-color: transparent;
+    padding: 2px 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #4d4d4d;
+}
+
+.button-join{
+    font-family: 'Orbitron', sans-serif;
+    margin: 20px 10px;
+    background-color: black;
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #ffffff
+}
+
+.contact-heading{
+    margin: 70px 0 10px 0 ;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+}
+
+.icons>span>img{
+    margin: 0 5px;
+    width: 30px;
+}
